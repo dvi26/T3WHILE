@@ -6,7 +6,7 @@ public class Ej5 {
 
 	public static void main(String[] args) {
 		int numero;
-		int contador = 1;
+		int contador = 0;
 		int totaln;
 		int sumap = 0;
 		int suman = 0;
@@ -16,7 +16,7 @@ public class Ej5 {
 		int errores = 0;
 		Scanner sc = new Scanner(System.in);
 		
-		while (contador <= 10) {
+		while (contador < 10) {
 			System.out.println("Introduzca un número entero: ");
 			numero = sc.nextInt();
 			
