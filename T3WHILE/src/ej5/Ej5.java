@@ -14,6 +14,7 @@ public class Ej5 {
 		double median = 0;
 		int totalc = 0;
 		int errores = 0;
+		double mediaf = 0;
 		Scanner sc = new Scanner(System.in);
 		
 		while (contador < 10) {
@@ -28,6 +29,7 @@ public class Ej5 {
 				suman = suman + numero;
 				totaln = suman2 + 1;
 				median = suman / totaln;
+				mediaf = median / totaln;
 				
 			} else if (numero == 0) {
 				totalc = totalc + 1;
@@ -38,7 +40,7 @@ public class Ej5 {
 			}
 
 		}
-		System.out.println("La media de los numeros negativos es: " + median);
+		System.out.println("La media de los numeros negativos es: " + mediaf);
 		System.out.println("La sumna de los numeros positivos es: " + sumap);
 		System.out.println("Has introducido: " + totalc + " ceros");
 		System.out.println("Numero de errores: " + errores);
